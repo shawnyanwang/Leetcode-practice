@@ -22,7 +22,7 @@ class Solution:
             i = i+1
 
 
-    def longestCommonPrefix2(self, strs):
+    #def longestCommonPrefix2(self, strs):
 
 
 
