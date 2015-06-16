@@ -34,3 +34,24 @@ print sum(primes)
 
 if 2 == None:
     print "Yes"
+
+print "---------------------------------------------------------"
+
+l = [[1], [1, 1]]
+print l[1][1]
+
+l = [k for k in range(9)]
+print l
+l[:3] = reversed(l[:3])
+l[4:] = reversed(l[4:])
+print l
+
+l.reverse()
+print l
+
+a = 1
+b = 2
+a, b = b, a
+print a, b
+l[1], l[2] = l[2], l[1]
+print l[1], l[2]

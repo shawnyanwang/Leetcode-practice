@@ -11,6 +11,9 @@ for i in numbers:
 for i in range(len(numbers)):
     print i
 i, j = 0, len(numbers)
+for k in range(-1):
+    print 'N'
+print 'Y'
 
 # class Solution:
 #     # @param {integer[]} nums
