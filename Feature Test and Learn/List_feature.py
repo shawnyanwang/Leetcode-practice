@@ -55,3 +55,5 @@ a, b = b, a
 print a, b
 l[1], l[2] = l[2], l[1]
 print l[1], l[2]
+l.insert(0, float('inf'))
+print l
